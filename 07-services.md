@@ -25,7 +25,9 @@ class PaymentService
 }
 ```
 
-## Using a Service (Dependency Injection)
+## Services & Dependency Injection
+
+**[< Previous: Middleware](06-middleware.md) | [Next: Database & Eloquent >](08-database.md)**
 
 You can inject this service into any Controller.
 

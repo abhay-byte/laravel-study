@@ -1,4 +1,6 @@
-# Learning Laravel: Database & Eloquent
+# Learning Laravel:# Database & Eloquent ORM
+
+**[< Previous: Services](07-services.md) | [Next: Configuration >](09-configuration.md)**
 
 Laravel makes interacting with databases extremely easy across a variety of supported backends (MySQL, PostgreSQL, SQLite, etc.).
 

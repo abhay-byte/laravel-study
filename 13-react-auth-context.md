@@ -1,4 +1,6 @@
-# Learning React: Auth Context
+# Learning# React Auth Context
+
+**[< Previous: React Routing](12-react-routing.md) | [Next: Auth Pages >](14-react-auth-pages.md)**
 
 We use React Context to manage authentication state globally across the application.
 

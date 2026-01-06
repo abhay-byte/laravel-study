@@ -1,4 +1,6 @@
-# Learning React: CRUD Endpoints
+# Learning# React CRUD Endpoints
+
+**[< Previous: Auth Pages](14-react-auth-pages.md) | [Next: Components & Hooks >](16-react-components-and-hooks.md)**
 
 We use Axios to communicate with our Laravel API.
 

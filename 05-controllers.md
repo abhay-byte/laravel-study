@@ -33,8 +33,10 @@ use App\Http\Controllers\UserController;
 Route::get('/user/{id}', [UserController::class, 'show']);
 ```
 
-## Resource Controllers
-Laravel resource routing assigns the typical "CRUD" routes to a controller with a single line of code.
+## Resource# Controllers in Laravel
+
+**[< Previous: Routes](04-routes.md) | [Next: Middleware >](06-middleware.md)**
+resource routing assigns the typical "CRUD" routes to a controller with a single line of code.
 
 ```bash
 php artisan make:controller PhotoController --resource

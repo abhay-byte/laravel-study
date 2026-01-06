@@ -1,5 +1,7 @@
 # Laravel 11 Architecture
 
+**[< Previous: Introduction](01-intro.md) | [Next: Installation >](03-installation.md)**
+
 Understanding the "black box" of Laravel is crucial for debugging and building robust applications.
 
 ## 1. The Request Lifecycle

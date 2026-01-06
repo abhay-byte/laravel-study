@@ -1,5 +1,7 @@
 # Laravel 11 Installation Guide
 
+**[< Previous: Architecture](02-architecture.md) | [Next: Routes >](04-routes.md)**
+
 This guide covers installing Laravel 11 on **Debian 12** and **Arch Linux**.
 
 ## 1. Install Prerequisites (PHP & Composer)

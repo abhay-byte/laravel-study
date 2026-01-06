@@ -55,8 +55,34 @@ To test the "Raw PHP" implementation:
     ```
 3.  Update `frontend/src/api.js` to port `8001`.
 
+## Learning Path 📚
+
+Follow these guides in order to understand how this project was built:
+
+### Phase 1: Laravel Basics
+1.  [Introduction](01-intro.md)
+2.  [Architecture & Concepts](02-architecture.md)
+3.  [Installation](03-installation.md)
+4.  [Routes](04-routes.md)
+5.  [Controllers](05-controllers.md)
+6.  [Middleware](06-middleware.md)
+7.  [Services](07-services.md)
+8.  [Database & Eloquent](08-database.md)
+9.  [Configuration](09-configuration.md)
+10. [Deep Dive: Database Drivers](10-database-drivers-deep-dive.md)
+
+### Phase 2: React Frontend
+11. [React Setup & Initialization](11-react-initialization.md)
+12. [React Routing](12-react-routing.md)
+13. [Auth Context](13-react-auth-context.md)
+14. [Auth Pages (Login/Register)](14-react-auth-pages.md)
+15. [CRUD Endpoints](15-react-crud-endpoints.md)
+16. [Components & Hooks](16-react-components-and-hooks.md)
+
+### Phase 3: Raw PHP vs Laravel
+17. [Raw PHP Backend Impl.](17-raw-php-backend.md)
+
 ## Documentation
 
 - [Database Schema & ERD](docs/database_schema.md)
 - [Architecture & Components](docs/architecture_components.md)
-- [Raw PHP Backend Details](17-raw-php-backend.md)

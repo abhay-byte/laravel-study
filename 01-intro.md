@@ -1,4 +1,6 @@
-# Introduction to Laravel 11
+# Laravel Introduction
+
+**[Next: Architecture & Concepts >](02-architecture.md)**
 
 ## What is Laravel?
 Laravel is a web application framework with expressive, elegant syntax. It creates a wonderful developer experience by providing powerful tools for common tasks, allowing you to focus on the unique parts of your application.

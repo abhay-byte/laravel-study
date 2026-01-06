@@ -1,4 +1,6 @@
-# Learning React: Auth Pages
+# Learning# React Auth Pages
+
+**[< Previous: Auth Context](13-react-auth-context.md) | [Next: CRUD Endpoints >](15-react-crud-endpoints.md)**
 
 We created specific pages for Login and Registration that interact with our `AuthContext`.
 

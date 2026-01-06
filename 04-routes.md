@@ -71,7 +71,10 @@ Route groups allow you to share route attributes, such as middleware or namespac
 ## API Routes & Authentication
 API routes are defined in `routes/api.php`. These routes are stateless and are assigned the `api` middleware group.
 
-To protect API routes using Laravel Sanctum:
+To protect API# Routes in Laravel
+
+**[< Previous: Installation](03-installation.md) | [Next: Controllers >](05-controllers.md)**
+ Sanctum:
 
 ```php
 Route::group(['middleware' => ['auth:sanctum']], function () {

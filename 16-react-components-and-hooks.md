@@ -1,5 +1,7 @@
 # Learning React: Components & Hooks
 
+**[< Previous: CRUD Endpoints](15-react-crud-endpoints.md) | [Next: Raw PHP Backend >](17-raw-php-backend.md)**
+
 This document breaks down the components used in our application, their types, and the hooks they utilize.
 
 ## 1. App Component (`src/App.jsx`)

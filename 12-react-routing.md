@@ -1,4 +1,6 @@
-# Learning React: Routing
+# Learning# React Routing
+
+**[< Previous: React Initialization](11-react-initialization.md) | [Next: Auth Context >](13-react-auth-context.md)**
 
 We use `react-router-dom` to manage navigation in our Single Page Application (SPA).
 

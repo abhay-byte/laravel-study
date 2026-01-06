@@ -1,4 +1,6 @@
-# Deep Dive: Database Drivers & Wrappers
+# Deep Dive: Database Drivers
+**[< Previous: Configuration](09-configuration.md) | [Next: React Initialization >](11-react-initialization.md)**
+ & Wrappers
 
 You asked for a simple explanation of **PDO**, **Wrapper**, **MySQLi**, and **SQLite3**. Here is the "Like I'm 5" breakdown.
 

@@ -1,4 +1,6 @@
-# Learning Laravel: Configuration & Environment Setup
+# Learning Laravel: Configuration & Environment
+**[< Previous: Database](08-database.md) | [Next: Deep Dive: Database Drivers >](10-database-drivers-deep-dive.md)**
+Setup
 
 ## 1. The .env File
 Laravel uses the [DotEnv](https://github.com/vlucas/phpdotenv) library. The root directory of your application will contain a `.env.example` file. You should copy this to `.env` manually or running `cp .env.example .env`.

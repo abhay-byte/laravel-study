@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "laravel-study-collection",
+		"name": "Laravel Study - Backend Demo",
+		"description": "Collection to test the various HTTP methods implemented in the educational Laravel backend.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. GET Root (Welcome)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						""
+					]
+				},
+				"description": "Simple GET request to the root URL."
+			},
+			"response": []
+		},
+		{
+			"name": "2. GET Hello (Controller + Service)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hello"
+					]
+				},
+				"description": "GET request handled by BasicController using GreetingService."
+			},
+			"response": []
+		},
+		{
+			"name": "3. GET Hello (Blocked by Middleware)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/hello?age=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hello"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "3",
+							"description": "Simulates a user who is too young."
+						}
+					]
+				},
+				"description": "This request should be blocked by the CheckAge middleware because age < 5."
+			},
+			"response": []
+		},
+		{
+			"name": "4. POST Submit Order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"item\": \"Pizza\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/submit-order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"submit-order"
+					]
+				},
+				"description": "POST request sending JSON data to create an order."
+			},
+			"response": []
+		},
+		{
+			"name": "5. PUT Update Order",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/update-order/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"update-order",
+						"1"
+					]
+				},
+				"description": "PUT request to update resource #1."
+			},
+			"response": []
+		},
+		{
+			"name": "6. DELETE Cancel Order",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/cancel-order/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cancel-order",
+						"1"
+					]
+				},
+				"description": "DELETE request to remove resource #1."
+			},
+			"response": []
+		}
+	]
+}
